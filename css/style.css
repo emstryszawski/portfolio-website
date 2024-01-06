@@ -1,0 +1,185 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ==========================================================================
+   RESET
+   ========================================================================== */
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  /*background: #1e1e1e !important;important*/
+  background-image: linear-gradient(rgba(30, 30, 30, 1), rgba(15, 15, 15, 1))  !important;
+  height: 100vh;
+  margin: 1vh 6vw;
+}
+
+a, p, span, li, label {
+  color: rgba(217, 217, 217, 1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pages-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+#pages-list, li {
+  margin: 2rem;
+}
+/*div {*/
+/*  border: solid 1px aqua;*/
+/*}*/
+
+a, p, span, li, label {
+  color: rgba(217, 217, 217, 1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pages-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+#pages-list li {
+  margin: 2em;
+}
+
+#pages-list li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  background: -webkit-linear-gradient(rgba(217, 217, 217, 1), rgba(217, 217, 217, 0.6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#pages-list li a:hover {
+  -webkit-text-fill-color: rgba(217, 217, 217, 0.7);
+}
+
+#logo {
+  width: 128px;
+  border-radius: 50%;
+}
+
+#logo {
+  width: 128px;
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#projects-format {
+  display: flex;
+  justify-content: end;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  display: flex;
+}
+
+#hello {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+}
+
+#hello h1 {
+  font-size: 12vw;
+  font-weight: 900;
+  background: -webkit-linear-gradient(rgba(217, 217, 217, 1), rgba(217, 217, 217, 0.15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#welcome-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+#welcome-text p {
+  margin: 18px;
+}
+
+.decor-border {
+  border-radius: 10px;
+}
+
+.gradient-border {
+  border-left: wheat 1px solid;
+  border-top: wheat 1px solid;
+}
+
+#projects {
+
+}
+
+.gradient {
+  background-image: linear-gradient(rgba(217, 217, 217, 1), rgb(217, 217, 217, 0));
+}
+
+#vertical-decor {
+  height: 100%;
+  width: 100px;
+}
